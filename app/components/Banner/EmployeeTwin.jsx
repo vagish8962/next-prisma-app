@@ -11,7 +11,7 @@ const EmployeeTwin = () => {
             className="m-10"
             width="500"
             height="100"
-            src="/images/ET.png"
+            src="/images/ET.svg"
             alt="Employee Twin"
           ></Image>
           <p className="font-bold text-xl m-10">
