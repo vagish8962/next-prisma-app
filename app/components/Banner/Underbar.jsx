@@ -16,5 +16,4 @@ const UnderBar = () => {
     </>
   );
 };
-
 export default UnderBar;
