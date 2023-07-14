@@ -7,3 +7,7 @@ body,
 :root {
     height: 100%;
 }
+
+.hap_light_blue {
+    background-color: #EBF3FD;
+}

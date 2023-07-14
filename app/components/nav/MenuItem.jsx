@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
-function MenuItem() {
-  return ( 
-    <div 
-      onClick={onClick} 
+function MenuItem({ onClick, label }) {
+  return (
+    <div
+      onClick={onClick}
       className="
-        px-4 
+        px-2 
         py-3 
         hover:bg-neutral-100 
         transition
@@ -14,7 +14,7 @@ function MenuItem() {
     >
       {label}
     </div>
-   );
+  );
 }
- 
+
 export default MenuItem;
