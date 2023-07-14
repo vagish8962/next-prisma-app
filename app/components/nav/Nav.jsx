@@ -2,11 +2,11 @@ import Container from "../Container";
 import Logo from "./Logo";
 import Search from "./Search";
 import Menu from "./Menu";
-import UserMenu from './UserMenu'
+import UserMenu from "./UserMenu";
 
 function Nav() {
   return (
-    <div className="fixed w-full z-10 shadow-sm hap_light_blue" >
+    <div className="fixed w-full z-10 shadow-sm hap_light_blue">
       <div
         className="
           py-4 

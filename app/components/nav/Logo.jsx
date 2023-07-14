@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 
 function Logo() {
   const router = useRouter();
-
   return (
     <Image
       onClick={() => router.push('/')}

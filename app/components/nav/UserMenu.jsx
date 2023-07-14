@@ -1,8 +1,7 @@
 "use client";
-import Avatar from '../Avatar'
+import Avatar from "../Avatar";
 
 function UserMenu({ currentUser }) {
-
   return (
     <div className="relative">
       <div className="flex flex-row items-center gap-3">
