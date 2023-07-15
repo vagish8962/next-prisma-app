@@ -6,8 +6,8 @@ function Menu() {
     console.log(menuOptions)
     return <>
         {
-            menuOptions.map((menu) => {
-                return <MenuItem label={menu.label} />
+            menuOptions.map((menu, i) => {
+                return <MenuItem label={menu.label} key={i} />
             })
         }
     </>

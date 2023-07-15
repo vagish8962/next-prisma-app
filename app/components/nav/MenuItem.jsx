@@ -10,6 +10,7 @@ function MenuItem({ onClick, label }) {
         hover:bg-neutral-100 
         transition
         font-semibold
+        text-black
       "
     >
       {label}

@@ -6,11 +6,10 @@ import UserMenu from "./UserMenu";
 
 function Nav() {
   return (
-    <div className="fixed w-full z-10 shadow-sm hap_light_blue">
+    <div className="w-full z-10 shadow-sm bg-light-blue text-black">
       <div
         className="
-          py-4 
-          border-b-[1px]
+          py-4
         "
       >
         <Container>

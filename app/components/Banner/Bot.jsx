@@ -1,11 +1,10 @@
-import React from "react";
 import Image from "next/image";
 
-const Bot = () => {
+function Bot() {
   return (
     <>
-      <div className="overflow-visible">
-        <Image src="/images/Bot.svg" width="600" height="600"></Image>
+      <div className="overflow-visible mt-20">
+        <Image src="/images/Bot.svg" width="600" height="600" />
       </div>
     </>
   );

@@ -1,14 +1,12 @@
-import React from "react";
-
-const UnderBar = () => {
+function UnderBar() {
   return (
     <>
-      <div className="p-8 w-full">
-        <div className="bg-red-500 p-5 justify-around text-center items-center flex w-3/5 h-12 overflow-visible rounded-full">
+      <div className="max-w-8xl ml-10">
+        <div className="bg-red p-5 justify-around text-center items-center flex h-12 overflow-visible rounded-full w-[140%]">
           <p className="font-bold text-white tracking-widest">
             Explore the Unilever GPT world
           </p>
-          <p className="font-bold text-yellow-300 tracking-widest">
+          <p className="font-bold text-yellow tracking-widest">
             FIND OUT MORE
           </p>
         </div>

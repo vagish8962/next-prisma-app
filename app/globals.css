@@ -6,18 +6,4 @@ html,
 body,
 :root {
   height: 100%;
-  background-color: #E5EFFD;
-}
-
-.hap_light_blue {
-  background-color: #ebf3fd;
-}
-.first {
-  background-color: #3b82f6;
-  color: white;
-}
-.second {
-  background-color: white;
-  color: #3b82f6;
-  border: 3.5px solid #3b82f6;
 }

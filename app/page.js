@@ -1,10 +1,12 @@
-import Image from "next/image";
-import Banner from "./components/Banner/Banner";
+import Image from 'next/image';
+import Banner from './components/Banner/Banner';
+import MeetEmployeeTwin from './components/MeetEmployeeTwin';
 
 export default function Home() {
   return (
-    <div>
-      <Banner></Banner>
-    </div>
+    <>
+      <Banner />
+      <MeetEmployeeTwin />
+    </>
   );
 }
