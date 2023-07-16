@@ -1,4 +1,5 @@
-import React, { forwardRef } from 'react'
+import React, { forwardRef } from 'react';
+
 export const cls = (input) =>
   input
     .replace(/\s+/gm, " ")
@@ -14,11 +15,11 @@ const classes = {
   size: {
     small: 'px-2 py-1 text-sm',
     normal: 'px-4 py-2',
-    large: 'px-8 py-3 text-lg'
+    large: 'px-20 py-3 text-lg'
   },
   variant: {
-    basic: 'bg-hard-blue text-white border border-sky-500 rounded-lg',
-    secondary: 'bg-hard-white border border-blue-500 rounded-lg text-hard-blue',
+    primary: 'bg-hard-blue text-white border border-sky-500 rounded-3xl',
+    secondary: 'bg-white border border-blue-500 rounded-3xl text-hard-blue',
   }
 }
 
@@ -31,6 +32,7 @@ const Button = forwardRef(
       size = 'normal',
       pill,
       disabled = false,
+      paddingX,
       ...props
     }, ref
   ) => (
