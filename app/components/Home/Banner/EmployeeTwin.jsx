@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "../Commons/Button";
+import Button from "../../Commons/Button";
 import UnderBar from "./Underbar";
 
 function EmployeeTwin() {

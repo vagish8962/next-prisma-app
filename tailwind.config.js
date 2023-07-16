@@ -11,6 +11,10 @@ const colors = {
     red: '#F43D4F',
     yellow: '#FFCD2A',
     purple: '#893BDC',
+    green: '#00D7C4',
+    'medium-blue': '#040B8F',
+    'container-blue': '#111796',
+    'lighter-blue': '#3F44A9',
   },
 };
 

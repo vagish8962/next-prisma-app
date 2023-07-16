@@ -5,9 +5,9 @@ function Search() {
     return (
         <div
             className="
-              p-4 
-              bg-blue-500 
-              rounded-full 
+                p-4 
+                bg-hard-blue
+                rounded-full 
               text-white
             "
         >
