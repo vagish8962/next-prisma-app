@@ -2,7 +2,7 @@ import React from 'react'
 
 function Widget({ children, bgColor }) {
     return (
-        <div className="rounded testt" style={{
+        <div className="rounded" style={{
             backgroundColor: bgColor
         }}>
             {children}

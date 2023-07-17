@@ -1,6 +1,8 @@
 import './globals.css';
 import localFont from 'next/font/local';
 import Navbar from './components/nav/Nav';
+import Footer from './components/Footer';
+
 // const unileverShillingFonts = localFont({
 //   src: [
 //     {
@@ -26,6 +28,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -20,6 +20,7 @@ const classes = {
   variant: {
     primary: 'bg-hard-blue text-white font-semibold border border-sky-500 rounded-3xl',
     secondary: 'bg-white border border-blue-500 font-semibold rounded-3xl text-hard-blue',
+    live: 'bg-live border border-live-500 font-semibold rounded-3xl text-white'
   }
 }
 

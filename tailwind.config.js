@@ -7,6 +7,7 @@ const colors = {
   ...{
     'light-blue': '#ebf3fd',
     'hard-blue': '#005DEE',
+    'sky-blue': '#E5EFFD',
     white: '#fff',
     red: '#F43D4F',
     yellow: '#FFCD2A',
@@ -16,6 +17,8 @@ const colors = {
     'container-blue': '#111796',
     'lighter-blue': '#3F44A9',
     'pin-blue': '#DEEBFC',
+    'off-white': '#f5f5f5',
+    live: '#00E418',
   },
 };
 
@@ -32,6 +35,10 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      content: {
+        rightCurve: 'url("/images/right.png")',
+        leftCurve: 'url("/images/left.png")',
       },
     },
   },
