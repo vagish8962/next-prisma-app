@@ -22,7 +22,7 @@ function SmarterIntelligence() {
   return (
     <div className="flex max-w-[2520px] m-auto bg-medium-blue">
       <div className="mt-10 flex flex-col justify-between w-3/4">
-        <div className="flex flex-col px-32 ">
+        <div className="flex flex-col px-32">
           <h2 className="w-full font-bold text-5xl px-40  py-6 text-white">
             Smarter and Intelligence{" "}
             <b className="text-green font-extrabold">
@@ -34,13 +34,20 @@ function SmarterIntelligence() {
           <Widget>
             <div className="p-3 h-80 rounded-3xl overflow-hidden bg-container-blue border-lighter-blue border flex flex-row">
               <Image
+                alt="PlanBot"
                 className="place-self-start"
                 width="200"
                 height="200"
                 src="/images/PlanBot.svg"
               ></Image>
-              <Image width="60" height="60" src="/images/Play.svg"></Image>
               <Image
+                alt="Play"
+                width="60"
+                height="60"
+                src="/images/Play.svg"
+              ></Image>
+              <Image
+                alt="Girl"
                 className="place-self-end mx-3"
                 width="200"
                 height="200"
@@ -56,6 +63,7 @@ function SmarterIntelligence() {
               <div className="text-yellow text-3xl">Human + </div>
               <div className="text-yellow text-3xl">Digital</div>
               <Image
+                alt="Man"
                 className="scale-125"
                 width="400"
                 height="500"
@@ -67,14 +75,13 @@ function SmarterIntelligence() {
       </div>
       <div>
         <div className="flex  h-full">
-          <div className="m-4 place-self-end">
+          <div className="flex flex-col justify-evenly h-full">
             {widgetData.map((eachWidget, key) => {
               return (
-                <Widget>
+                <Widget key={key}>
                   <InnerWidget
                     title={eachWidget.title}
                     desp={eachWidget.description}
-                    key={key}
                   />
                 </Widget>
               );
