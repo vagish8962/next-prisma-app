@@ -3,43 +3,40 @@ import Avatar from "../Avatar";
 
 function UserMenu({ currentUser }) {
   return (
-    <div className="relative">
-      <div className="flex flex-row items-center gap-3">
+    <div className="relative mx-3 rounded-3xl bg-pin-blue border-pin-blue border">
+      <div className="flex flex-row items-center gap-3 ">
         <div
           className="
             hidden
             md:block
             text-sm 
-            font-semibold 
             py-3 
-            px-4 
-            rounded-full 
+            px-2
+            rounded-full
+            font-semibold
             hover:bg-neutral-100 
             transition 
             cursor-pointer
+            text-hard-blue
           "
         >
           Hi Gopi,
         </div>
         <div
           className="
-          p-4
           md:py-1
-          md:px-2
-          border-[1px] 
-          border-neutral-200 
+          md:px-1
           flex 
           flex-row 
           items-center 
           gap-3 
-          rounded-full 
           cursor-pointer 
           hover:shadow-md 
           transition
           "
         >
-          <div className="hidden md:block">
-            <Avatar src={currentUser?.image} />
+          <div className="hidden md:block text-hard-blue">
+            <Avatar />
           </div>
         </div>
       </div>

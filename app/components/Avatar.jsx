@@ -1,15 +1,13 @@
-'use client';
 import Image from "next/image";
+import { LiaUserCircle } from 'react-icons/lia';
 
-function Avatar({ src }) {
+function Avatar() {
     return (
-        <Image
-            className="rounded-full"
-            height="30"
-            width="30"
-            alt="Avatar"
-            src={src || '/images/placeholder.jpg'}
-        />
+        <>
+            <LiaUserCircle
+                size={28}
+            />
+        </>
     );
 }
 

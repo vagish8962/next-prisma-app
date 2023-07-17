@@ -1,8 +1,19 @@
 import './globals.css';
 import localFont from 'next/font/local';
 import Navbar from './components/nav/Nav';
-
-const fonts = localFont({ src: '../public/fonts/UnileverShilling.ttf' });
+// const unileverShillingFonts = localFont({
+//   src: [
+//     {
+//       src: '../public/fonts/UnileverShillingBold.ttf',
+//       variable: 'fontsBold',
+//     },
+//     {
+//       src: '../public/fonts/UnileverShilling.ttf',
+//       variable: 'font',
+//     },
+//   ],
+//   variable: '--font-unilever',
+// });
 
 export const metadata = {
   title: 'Hap App',
@@ -12,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body style={fonts.style}>
+      <body>
         <Navbar />
         {children}
       </body>

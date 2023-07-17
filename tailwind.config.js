@@ -15,6 +15,7 @@ const colors = {
     'medium-blue': '#040B8F',
     'container-blue': '#111796',
     'lighter-blue': '#3F44A9',
+    'pin-blue': '#DEEBFC',
   },
 };
 

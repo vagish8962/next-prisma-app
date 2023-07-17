@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Unilever';
+  src: url('../public/fonts/UnileverShillingBold.ttf');
+  src: url('../public/fonts/UnileverShilling.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 html,
 body,
 :root {
   height: 100%;
+  font-family: Unilever, sans-serif;
+  font-weight: 400;
 }

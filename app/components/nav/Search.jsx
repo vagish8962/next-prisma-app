@@ -6,12 +6,13 @@ function Search() {
         <div
             className="
                 p-4 
-                bg-hard-blue
+                bg-pin-blue
                 rounded-full 
-              text-white
+                text-hard-blue
+                font-bolder
             "
         >
-            <BiSearch size={18} />
+            <BiSearch size={20} />
         </div>
     );
 }

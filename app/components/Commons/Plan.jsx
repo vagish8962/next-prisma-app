@@ -5,7 +5,7 @@ import Button from '../Commons/Button'
 
 function Plan({ imgSrc, title, description, priceDetail, active: isActive, buyNow }) {
     return (
-        <div className={classNames('flex justify-center flex-col rounded-3xl p-8 border-2', isActive ? 'bg-medium-blue text-white' : 'bg-light-blue text-medium-blue')}>
+        <div className={classNames('flex justify-center flex-col rounded-3xl p-8 border-2', isActive ? 'bg-medium-blue text-white' : 'bg-light-blue text-medium-blue border-light-blue')}>
             <Image
                 className="max-w-md mx-auto"
                 src={imgSrc}
