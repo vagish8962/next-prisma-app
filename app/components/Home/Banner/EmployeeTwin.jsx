@@ -10,25 +10,20 @@ function EmployeeTwin() {
           className="m-10"
           width="500"
           height="100"
-          src="/images/ET.png"
+          src="/images/ET.svg"
           alt="Employee Twin"
         ></Image>
         <p className="font-bold text-xl m-10">
           Get your digital coworker activated today. Up Skill anytime.
         </p>
         <div className="flex space-x-2 m-10">
-          <Button
-          >Get your Employee Twin</Button>
-          <Button
-            variant="secondary"
-          >
-            Explore all the Skills
-          </Button>
+          <Button variant="primary">Get your Employee Twin</Button>
+          <Button variant="secondary">Explore all the Skills</Button>
         </div>
       </div>
       <UnderBar />
     </div>
   );
-};
+}
 
 export default EmployeeTwin;

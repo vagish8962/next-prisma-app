@@ -18,8 +18,8 @@ const classes = {
     large: 'px-20 py-3 text-lg'
   },
   variant: {
-    primary: 'bg-hard-blue text-white border border-sky-500 rounded-3xl',
-    secondary: 'bg-white border border-blue-500 rounded-3xl text-hard-blue',
+    primary: 'bg-hard-blue text-white font-semibold border border-sky-500 rounded-3xl',
+    secondary: 'bg-white border border-blue-500 font-semibold rounded-3xl text-hard-blue',
   }
 }
 
