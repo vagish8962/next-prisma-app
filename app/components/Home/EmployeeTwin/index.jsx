@@ -28,7 +28,7 @@ const empTwinsData = [
 
 function EmployeeTwin() {
     return (
-        <div className="max-w-[2520px] m-auto text-center p-20 bg-off-white rounded-tl-30 border-separate rounded-tl-3xl">
+        <div className="max-w-[2520px] m-auto text-center p-20 bg-off-white rounded-tl-30 border-separate rounded-tl-3xl custom-border-left-top">
             <h2 className="font-semibold text-hard-blue text-5xl py-8">
                 Employee Twin
             </h2>

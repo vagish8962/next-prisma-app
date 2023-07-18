@@ -17,3 +17,10 @@ body,
   font-family: Unilever, sans-serif;
   font-weight: 400;
 }
+.custom-border-left-top {
+  border-top-left-radius: 150px 150px;
+}
+
+.custom-border-right-top {
+  border-top-right-radius: 150px 150px;
+}

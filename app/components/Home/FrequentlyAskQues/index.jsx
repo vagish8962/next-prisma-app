@@ -3,7 +3,7 @@ import Accordian from './Accordian';
 
 function FrequentlyAskQues() {
     return (
-        <div className='flex justify-around py-10'>
+        <div className='flex justify-around py-10 custom-border-right-top py-32 rounded-tl-3xl border-separate'>
             <div className='flex flex-col font-semibold text-hard-blue text-6xl  leading-snug'>
                 <h3><span className='text-green'>F</span>requently</h3>
                 <h3><span className='text-green'>A</span>sked </h3>
