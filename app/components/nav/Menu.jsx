@@ -1,6 +1,6 @@
 import React from "react";
 import menuOptions from "./menuOptions.js";
-import MenuItem from "./MenuItem"
+import MenuItem from "./MenuItem.jsx"
 
 function Menu() {
     console.log(menuOptions)

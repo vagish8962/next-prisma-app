@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import classNames from "classnames";
-import Button from "../Commons/Button";
+import Button from "./Button";
 
 function Plan({
   imgSrc,
@@ -28,17 +28,15 @@ function Plan({
         alt={title}
       />
       <h3
-        className={`my-4 text-3xl font-extrabold ${
-          isActive ? "text-white" : "text-hard-blue"
-        }`}
+        className={`my-4 text-3xl font-extrabold ${isActive ? "text-white" : "text-hard-blue"
+          }`}
       >
         {title}
       </h3>
       <p className="my-4 font-bold">{description}</p>
       <h2
-        className={`my-4 text-4xl font-bold  ${
-          isActive ? "text-white" : "text-hard-blue"
-        }`}
+        className={`my-4 text-4xl font-bold  ${isActive ? "text-white" : "text-hard-blue"
+          }`}
       >
         {priceDetail?.price}
       </h2>

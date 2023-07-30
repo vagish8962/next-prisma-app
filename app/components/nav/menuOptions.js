@@ -13,9 +13,6 @@ const menuOptions = [
     },
     {
         label: 'Packages',
-    },
-    {
-        label: 'Hap Products',
     }
 ];
 
